@@ -15,9 +15,24 @@ header {
 	padding-bottom: 20px;
 }
 
+.vendor-wrapper-b {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+	background-color: rgb(255, 255, 255, 0.6);
+	border: 6px solid rgb(186, 156, 127, 0.5);
+}
+
 .vendor-photo {
-	max-width: 200px;
-	max-height: 150px;
+	object-fit: cover;
+	width: 200px;
+	height: 100%;
 	padding-right: 20px;
 }
 
@@ -52,4 +67,17 @@ header {
 
 .red-cart {
 	color: #DF0000;
+}
+
+.right-wrapper {
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.left {
+	margin-right: auto;
 }
